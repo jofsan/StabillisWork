@@ -1,30 +1,29 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 
-
-
 /* tirar bordas dos input */
-textarea:focus, input:focus{
+textarea:focus,
+input:focus {
     outline: none;
 }
+
 /* todas as tags (a) com fonte size abaixo*/
-a{
+
+a {
     font-size: 1.rem;
     text-decoration: none;
-    
 }
 
-a:hover{
+a:hover {
     color: rgb(10, 160, 255);
 }
 
 /* estilizando login*/
-.container{
+.container {
     width: 800px;
     height: 500px;
     margin-left: auto;
@@ -36,10 +35,9 @@ a:hover{
     box-shadow: 0 0 1rem rgb(9, 9, 9);
     fill: #ffffff;
     stroke: #000000;
-
 }
 
-h2{
+h2 {
     font-size: 1.5rem;
     color: rgb(10, 160, 255);
     margin-bottom: 3px;
@@ -48,15 +46,16 @@ h2{
 /* estilizando Formulário*/
 
 
- span, input{
+span,
+input {
     display: block;
     width: 100%;
     text-align: center;
 }
 
 
-input{
-   /* border-bottom: 2px solid rgb(34,34,34);*/
+input {
+    /* border-bottom: 2px solid rgb(34,34,34);*/
     padding: 10px;
     height: 2.5em;
     width: 30rem;
@@ -65,27 +64,27 @@ input{
     margin-left: 130px;
     border-radius: 12px;
     background-color: #F0F0F0;
-    border: none;  
-
+    border: none;
 }
 
-#ipt_nome::placeholder{
+#ipt_nome::placeholder {
     margin-left: 380px;
 }
 
-#ipt_email::placeholder{
-    margin-left: 380px;
-}
-#ipt_senha::placeholder{
+#ipt_email::placeholder {
     margin-left: 380px;
 }
 
-#ipt_confirmSenha::placeholder{
-    margin-left: 300px; 
+#ipt_senha::placeholder {
+    margin-left: 380px;
+}
+
+#ipt_confirmSenha::placeholder {
+    margin-left: 300px;
 }
 
 
-input:focus{
+input:focus {
     border-bottom: 2px solid #22B0FC;
 }
 
@@ -95,7 +94,7 @@ input:focus{
     justify-content: left;
     margin-left: 120px;
 }
-  
+
 .input-icons {
     width: 100%;
     margin-bottom: 10px;
@@ -107,12 +106,9 @@ input:focus{
     min-width: 50px;
     text-align: center;
     color: #6A6A6A;
-
 }
 
-
-
-button{
+button {
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
@@ -121,14 +117,116 @@ button{
     width: 12rem;
     border-radius: 12px;
     margin-top: 20px;
-    background-color:  #22B0FC;
+    background-color: #22B0FC;
     cursor: pointer;
     color: #ffffff;
 }
 
-button:hover{
-    background-color:#1d87c0;
+button:hover {
+    background-color: #1d87c0;
     color: #000000;
     transition: .4s;
 }
 
+/* footer */
+
+footer {
+    margin-top: 5vw;
+    background-color: #1D293F;
+    color: #ffffff;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
+}
+
+.container-footer {
+    max-width: 1400px;
+    padding: 0 4%;
+    margin: auto;
+    position: relative;
+}
+
+.row-footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    justify-items: center;
+    margin-left: 4vw;
+}
+
+.caixa-footer, .caixa-footer2 {
+    width: 25%;
+    padding: 0 15px;
+}
+
+.caixa-footer2 {
+    width: 25%;
+    padding: 0 15px;
+    margin-left: 10vw;
+}
+
+.caixa-footer h4 {
+    margin-top: 2vw;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.caixa-footer2 h4{
+    margin-top: 2vw;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    font-weight: 500;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.caixa-footer2 a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 300;
+    display: block;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.caixa-footer2 a:hover {
+    color: #cecdcd;
+    padding-left: 10px;
+    transition: all 0.3 ease;
+}
+
+.caixa-footer img {
+    width: 15vw;
+    margin-left: 1vw;
+    margin-top: 2vw;
+}
+
+.sociais img {
+    width: 30px;
+    margin-right: 1vw;
+}
+
+/* circulo */
+.extra {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    background-color: #bbb;
+    border-radius: 50%;
+    color: #ABEEF7;
+    margin-bottom: 100px;
+    left: -80px;
+    bottom: -570px;
+}
+
+/* linha */
+.linha {
+    background-color: #80C8F0;
+    height: 1px;
+    width: 70%;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 3vw;       
+}

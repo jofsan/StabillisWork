@@ -1,29 +1,26 @@
-
-  
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body {
     font-family: "roboto", sans-serif;
-    background-color: rgb(255,255,255);
+    background-color: rgb(255, 255, 255);
 }
 
 .logo {
     width: 5rem;
     height: 5rem;
     border-radius: 100px;
-    
+
 }
 
-img{
+img {
     width: 5rem;
     margin: 2px;
 }
 
-header{
+header {
     position: fixed;
     top: 0%;
     left: 0%;
@@ -35,11 +32,12 @@ header{
     box-shadow: 0 0 1rem rgb(9, 9, 9);
 }
 
-ul{
+ul {
     display: flex;
 
 }
-li{
+
+li {
     color: rgb(0, 0, 0);
     list-style-type: none;
     cursor: pointer;
@@ -47,12 +45,12 @@ li{
     font-weight: bold;
 }
 
-li:hover{
+li:hover {
     color: #22B0FC;
 }
 
-.logBottom{
-    background-color:#22B0FC;
+.logBottom {
+    background-color: #22B0FC;
     color: white;
     padding: 18px;
     width: 6rem;
@@ -60,16 +58,10 @@ li:hover{
     margin-top: 20px;
     margin: 16px;
     border-radius: 1.5rem;
-   text-align: center;
-   
-   
-
- 
+    text-align: center;
 }
 
-.logBottom:hover{
+.logBottom:hover {
     color: black;
     background-color: #67c2f3;
 }
-
-
