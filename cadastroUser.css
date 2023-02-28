@@ -106,7 +106,16 @@ input:focus {
     min-width: 50px;
     text-align: center;
     color: #6A6A6A;
+
+    
 }
+
+.fa-solid:target::before {
+    content: ""; /* Constrói um elemento "invisível" */
+    display: block;
+    height: 100px; /* Altura do espaçador */
+    margin: -100px 0 0; /* Margin top do espaçador */
+  }
 
 button {
     text-align: center;
