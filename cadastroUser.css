@@ -26,10 +26,11 @@ a:hover {
 
 /* estilizando login*/
 .container {
+    display: flex;
     width: 800px;
     max-width: 1900px;
     height: 500px;
-    margin-left: auto;
+    margin-left: 27%;
     margin-right: auto;
     padding: 20px;
     border-radius: 25px;
@@ -39,6 +40,8 @@ a:hover {
     fill: #ffffff;
     stroke: #000000;
     z-index: 1;
+    position: absolute;
+    justify-items: center;
 }
 
 h2 {
@@ -111,7 +114,7 @@ input:focus {
     text-align: center;
     color: #6A6A6A;
 
-    
+
 }
 
 
@@ -137,18 +140,17 @@ button:hover {
 }
 
 /*circle*/
-.circle{
+.circle {
     position: absolute;
     top: 0;
     right: 0;
     width: 100%;
-  height: 100%;
- margin-top: 42px;
-  background-color: yellow;
-  clip-path: circle(40% at bottom left);
- 
-
- 
+    height: 100%;
+    margin-top: 4vw;
+    background-color: yellow;
+    clip-path: circle(45% at bottom left);
+    opacity: .5;
+    filter: blur(4px);
 }
 
 /* footer */
@@ -159,10 +161,9 @@ footer {
     color: #ffffff;
     padding-bottom: 2vw;
     padding-top: 2vw;
-    
-    
-   
-
+    width: 100%;
+    position: absolute;
+    margin-top: 44vw;
 }
 
 .container-footer {
@@ -170,8 +171,6 @@ footer {
     padding: 0 4%;
     margin: auto;
     position: relative;
-    
-    
 }
 
 .row-footer {
@@ -180,10 +179,11 @@ footer {
     justify-content: space-between;
     justify-items: center;
     margin-left: 4vw;
-    
+
 }
 
-.caixa-footer, .caixa-footer2 {
+.caixa-footer,
+.caixa-footer2 {
     width: 25%;
     padding: 0 15px;
 }
@@ -203,7 +203,7 @@ footer {
     text-transform: uppercase;
 }
 
-.caixa-footer2 h4{
+.caixa-footer2 h4 {
     margin-top: 2vw;
     font-size: 1rem;
     margin-bottom: 20px;
@@ -258,5 +258,5 @@ footer {
     width: 70%;
     display: flex;
     margin: 0 auto;
-    margin-top: 3vw;       
+    margin-top: 3vw;
 }
