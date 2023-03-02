@@ -28,9 +28,8 @@ a:hover {
 .container {
     display: flex;
     width: 800px;
-    max-width: 1900px;
-    height: 600px;
-    margin: 15vh 20vh 50vh 55vh;
+    height: 580px;
+    margin: 15vh 20vh 50vh 52vh;
     padding: 20px;
     border-radius: 25px;
     text-align: center;
@@ -159,14 +158,14 @@ button:hover {
 /* footer */
 
 footer {
-    margin-top: 5vw;
+    
     background-color: #1D293F;
     color: #ffffff;
     padding-bottom: 2vw;
     padding-top: 2vw;
     width: 100%;
     position: absolute;
-    margin-top: 48vw;
+    margin-top: 49vw;
 }
 
 .container-footer {
